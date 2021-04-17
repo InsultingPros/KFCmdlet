@@ -29,6 +29,10 @@ event int Main(string Parms)
     }
     class'EditorEngine'.Static.StaticSaveConfig();
   }
+
+  // added just to avoid compiler warnings
+  // dunno if this even has any real effect
+  return 0;
 }
 
 

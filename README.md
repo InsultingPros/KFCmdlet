@@ -1,4 +1,4 @@
-# KFCmdlet
+# KF Commandlet
 
 Testing!
 
@@ -28,3 +28,4 @@ pause
 ## Credits
 
 Based on: <https://wiki.beyondunreal.com/User:Eliot/EditPackagesCommandlet>
+Some useful info: <https://wiki.beyondunreal.com/Legacy:Commandlet>
