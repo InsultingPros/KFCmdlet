@@ -12,21 +12,22 @@ Testing!
 
 ```cpp
 @echo off
-title Compiling %1%
+set mut=ChatIcon
+title Compiling %mut%
 cd..
 cd System
 echo ----------------------------------------------------
-echo Deleting compiled files of %1%
+echo Deleting compiled files of %mut%
 echo ----------------------------------------------------
-del %1%.u
-del %1%.ucl
-del %1%.int
+del %mut%.u
+del %mut%.ucl
+del %mut%.int
 echo ----------------------------------------------------
 echo Compiling!
 echo ----------------------------------------------------
-ucc.exe KFCmdlet.KFCmdlet 1 %1%
+ucc.exe KFCmdlet.KFCmdlet 1 %mut%
 ucc.exe MakeCommandlet -EXPORTCACHE
-ucc.exe KFCmdlet.KFCmdlet 0 %1%
-ucc.exe DumpIntCommandlet %1%.u
+ucc.exe KFCmdlet.KFCmdlet 0 %mut%
+ucc.exe DumpIntCommandlet %mut%.u
 pause
 ```

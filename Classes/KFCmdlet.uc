@@ -13,25 +13,25 @@ event int Main(string Parms)
   if (bAdd)
   {
     Log( "Adding" @ PackageName, Name );
-    class'EditorEngine'.Default.EditPackages[class'EditorEngine'.Default.EditPackages.Length] = PackageName;
-    class'EditorEngine'.Static.StaticSaveConfig();
+    class'EditorEngine'.default.EditPackages[class'EditorEngine'.default.EditPackages.Length] = PackageName;
+    class'EditorEngine'.static.StaticSaveConfig();
   }
   else
   {
     Log("Removing" @ PackageName, Name);
-    for (i = 0; i < class'EditorEngine'.Default.EditPackages.Length; ++ i)
+    for (i = 0; i < class'EditorEngine'.default.EditPackages.Length; ++ i)
     {
-      if (class'EditorEngine'.Default.EditPackages[i] ~= PackageName)
+      if (class'EditorEngine'.default.EditPackages[i] ~= PackageName)
       {
-        class'EditorEngine'.Default.EditPackages.Remove( i, 1 );
+        class'EditorEngine'.default.EditPackages.Remove( i, 1 );
         break;
       }
     }
-    class'EditorEngine'.Static.StaticSaveConfig();
+    class'EditorEngine'.static.StaticSaveConfig();
   }
 
-  // added just to avoid compiler warnings
-  // dunno if this even has any real effect
+  // this can be used for error handling
+  // but right now its used to avoid compiler errors
   return 0;
 }
 
