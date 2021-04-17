@@ -1,5 +1,7 @@
 # KF Commandlet
 
+![GitHub all releases](https://img.shields.io/github/downloads/InsultingPros/KFCmdlet/total)
+
 Testing!
 
 ## Genaral info
