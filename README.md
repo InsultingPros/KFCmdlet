@@ -5,8 +5,8 @@ Testing!
 ## Genaral info
 
 * Based on [Eliot's snippet](https://wiki.beyondunreal.com/User:Eliot/EditPackagesCommandlet).
-* [Commandlet](https://wiki.beyondunreal.com/Legacy:Commandlet)
-* [UCC compiler](https://wiki.beyondunreal.com/Legacy:Compiling_With_UCC)
+* [Commandlet](https://wiki.beyondunreal.com/Legacy:Commandlet) info.
+* [UCC compiler](https://wiki.beyondunreal.com/Legacy:Compiling_With_UCC) keys.
 
 ## Usage
 
