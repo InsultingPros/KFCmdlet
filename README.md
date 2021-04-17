@@ -18,9 +18,9 @@ del %1%.int
 echo ----------------------------------------------------
 echo Compiling!
 echo ----------------------------------------------------
-ucc.exe EditPackagesCommandlet 1 %1%
+ucc.exe KFCmdlet.KFCmdlet 1 %1%
 ucc.exe MakeCommandlet -EXPORTCACHE
-ucc.exe EditPackagesCommandlet 0 %1%
+ucc.exe KFCmdlet.KFCmdlet 0 %1%
 ucc.exe DumpIntCommandlet %1%.u
 pause
 ```
@@ -28,4 +28,5 @@ pause
 ## Credits
 
 Based on: <https://wiki.beyondunreal.com/User:Eliot/EditPackagesCommandlet>
+
 Some useful info: <https://wiki.beyondunreal.com/Legacy:Commandlet>
