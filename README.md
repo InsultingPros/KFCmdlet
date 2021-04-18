@@ -12,24 +12,18 @@ Testing!
 
 ## Usage
 
+* To add your packages:
+
 ```cpp
-@echo off
-set mut=ChatIcon
-title Compiling %mut%
-cd..
-cd System
-echo ----------------------------------------------------
-echo Deleting compiled files of %mut%
-echo ----------------------------------------------------
-del %mut%.u
-del %mut%.ucl
-del %mut%.int
-echo ----------------------------------------------------
-echo Compiling!
-echo ----------------------------------------------------
-ucc.exe KFCmdlet.KFCmdlet 1 %mut%
-ucc.exe MakeCommandlet -EXPORTCACHE
-ucc.exe KFCmdlet.KFCmdlet 0 %mut%
-ucc.exe DumpIntCommandlet %mut%.u
-pause
+ucc.exe KFCmdlet.Add Package_1,Package_2,etc
 ```
+
+* To restore vanilla **EditPackages**:
+
+```cpp
+ucc.exe KFCmdlet.Clean
+```
+
+* Or use help commands of **UCC**.
+
+Bat [example](Batch/compile.bat).
