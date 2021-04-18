@@ -2,7 +2,7 @@
 
 ![GitHub all releases](https://img.shields.io/github/downloads/InsultingPros/KFCmdlet/total)
 
-Testing!
+Allows **UCC.exe** to interact with **EditPackages**. No more killingfloor.ini editing and copy-pasting.
 
 ## Genaral info
 
