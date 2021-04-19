@@ -26,4 +26,4 @@ ucc.exe KFCmdlet.Clean
 
 * Or use help commands of **UCC**.
 
-Bat [example](Batch/compile.bat).
+Bat [example](Batch/compile.bat) and it's [settings file](Batch/CompileSettings.ini).
