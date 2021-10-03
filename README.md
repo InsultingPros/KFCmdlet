@@ -26,4 +26,9 @@ ucc.exe KFCmdlet.Clean
 
 * Or use help commands of **UCC**.
 
-Bat [example](Batch/compile.bat) and it's [settings file](Batch/CompileSettings.ini).
+## Batch Files
+
+Download your desired bat, fill your game / server / compile directories in `CompileSettings.ini` and enjoy.
+
+* [CMD Bat](Batch_CMD/compile.bat) / [settings file](Batch_CMD/CompileSettings.ini).
+* [PowerShell Bat](Batch_PowerShell/Compile.ps1) / [settings file](Batch_PowerShell//CompileSettings.ini).
