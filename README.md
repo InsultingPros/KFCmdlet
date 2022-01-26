@@ -2,6 +2,8 @@
 
 ![GitHub all releases](https://img.shields.io/github/downloads/InsultingPros/KFCmdlet/total)
 
+> N.B. You'd better install python 😂, use this handy [**script**](https://github.com/InsultingPros/KFCompileTool) to avoid cmd.exe / powershell hell. And no mod installation required.
+
 Allows **UCC.exe** to interact with **EditPackages**. No more killingfloor.ini editing and copy-pasting.
 
 ## Genaral info
