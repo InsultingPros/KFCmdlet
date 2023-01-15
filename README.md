@@ -1,6 +1,6 @@
 # KF Commandlet
 
-![GitHub all releases](https://img.shields.io/github/downloads/InsultingPros/KFCmdlet/total)
+[![GitHub all releases](https://img.shields.io/github/downloads/InsultingPros/KFCmdlet/total)](https://github.com/InsultingPros/KFCmdlet/releases)
 
 > N.B. You'd better install python 😂, use this handy [**script**](https://github.com/InsultingPros/KFCompileTool) to avoid cmd.exe / powershell hell. And no mod installation required.
 
