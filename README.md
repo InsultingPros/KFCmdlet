@@ -2,35 +2,35 @@
 
 [![GitHub all releases](https://img.shields.io/github/downloads/InsultingPros/KFCmdlet/total)](https://github.com/InsultingPros/KFCmdlet/releases)
 
-> N.B. You'd better install python 😂, use this handy [**script**](https://github.com/InsultingPros/KFCompileTool) to avoid cmd.exe / powershell hell. And no mod installation required.
+> **Note** Better try [**KFCompileTool**](https://github.com/InsultingPros/KFCompileTool) python script to avoid cmd.exe / powershell hell. And it has superior automation.
 
-Allows **UCC.exe** to interact with **EditPackages**. No more killingfloor.ini editing and copy-pasting.
+Allows **UCC.exe** to directly interact with **EditPackages** lines. No more killingfloor.ini editing and copy-pasting.
 
-## Genaral info
-
-* Based on [Eliot's](https://github.com/EliotVU) [snippet](https://wiki.beyondunreal.com/User:Eliot/EditPackagesCommandlet).
-* [Commandlet](https://wiki.beyondunreal.com/Legacy:Commandlet) info.
-* [UCC compiler](https://wiki.beyondunreal.com/Legacy:Compiling_With_UCC) keys.
+- Based on [Eliot](https://github.com/EliotVU)'s [MakeCommandletUtils](https://github.com/EliotVU/UnrealScript-MakeCommandletUtils).
+- [Commandlet](https://wiki.beyondunreal.com/Legacy:Commandlet) info.
+- [UCC compiler](https://wiki.beyondunreal.com/Legacy:Compiling_With_UCC) keys.
 
 ## Usage
 
-* To add your packages:
+Download `KFCmdlet.u` from release tab and drop to your `System` directory, near **UCC**.
 
-```cpp
+### CLI
+
+To add your packages:
+
+```ini
 ucc.exe KFCmdlet.Add Package_1,Package_2,etc
 ```
 
-* To restore vanilla **EditPackages**:
+To restore vanilla **EditPackages**:
 
-```cpp
+```ini
 ucc.exe KFCmdlet.Clean
 ```
 
-* Or use help commands of **UCC**.
+Or use help commands of **UCC**.
 
-## Batch Files
+### Batch Files
 
-Download your desired bat, fill your game / server / compile directories in `CompileSettings.ini` and enjoy.
-
-* [CMD Bat](Batch_CMD/compile.bat) / [settings file](Batch_CMD/CompileSettings.ini).
-* [PowerShell Bat](Batch_PowerShell/Compile.ps1) / [settings file](Batch_PowerShell//CompileSettings.ini).
+- Download your desired [CMD](Files/CMD) / [PowerShell](Files/PowerShell) batch files with `CompileSettings.ini`.
+- Fill your game / server / compile directories in `CompileSettings.ini` and enjoy.
